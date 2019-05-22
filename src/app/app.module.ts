@@ -8,10 +8,11 @@ import { AppComponent } from './app.component';
 // import { ServersComponent } from './servers/servers.component';
 // import { WarningAlertComponent } from './warning-alert/warning-alert.component';
 // import { SuccessAlertComponent } from './success-alert/success-alert.component';
-import { UsernameComponent } from './username/username.component';
+// import { UsernameComponent } from './username/username.component';
+import { TunaObscuraComponent } from './tuna-obscura/tuna-obscura.component';
 
 @NgModule({
-  declarations: [AppComponent, UsernameComponent],
+  declarations: [AppComponent, TunaObscuraComponent],
   imports: [BrowserModule, FormsModule, HttpClientModule],
   providers: [],
   bootstrap: [AppComponent]
